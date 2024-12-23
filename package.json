@@ -1,0 +1,13 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A simple API to generate QR codes from URLs using Node.js and qrcode",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "qrcode": "^1.5.1"
+  }
+}
